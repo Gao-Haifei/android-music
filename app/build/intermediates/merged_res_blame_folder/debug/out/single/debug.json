@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.example.music.app-merged_res-16:/layout_activity_main.xml.flat",
+        "source": "com.example.music.app-main-18:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/layout_list_item.xml.flat",
+        "source": "com.example.music.app-main-18:/layout/list_item.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/drawable_img.jpg.flat",
+        "source": "com.example.music.app-main-18:/drawable/img.jpg"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.music.app-main-18:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.music.app-pngs-11:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/drawable_ii.xml.flat",
+        "source": "com.example.music.app-main-18:/drawable/ii.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.music.app-main-18:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.music.app-main-18:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.music.app-merged_res-16:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.music.app-main-18:/drawable/ic_launcher_background.xml"
+    }
+]

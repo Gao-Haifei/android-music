@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.henryblue.minimusicview:library:1.0.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30040c4775509a63de32372f1e477194/jetified-library-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30040c4775509a63de32372f1e477194/jetified-library-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/30040c4775509a63de32372f1e477194/jetified-library-1.0.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.henryblue.minimusicview/library/1.0.1/aadb3cc23901b30b85eb90647c81d1ad2a7cd969/library-1.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.henryblue.minimusicview/library/1.0.1/c858157e7d5a64a17ac9feaa2aedd42f0b78b6c0/library-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/mytab"
+        android:background="@color/purple_700"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabTextColor="#FB8C00"
+        app:tabSelectedTextColor="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+<!--      本地页面       -->
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:visibility="gone"
+        android:id="@+id/lin_be"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="我的收藏"
+                android:layout_marginLeft="100dp"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:drawable/btn_star_big_on"/>
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list_view_3"
+            android:layout_width="wrap_content"
+            android:layout_height="640dp"/>
+
+    </LinearLayout>
+
+
+<!--     歌曲页面         -->
+    <LinearLayout
+        android:id="@+id/lin_ge"
+        android:layout_marginTop="40dp"
+        android:visibility="visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            tools:ignore="UselessParent">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/fanhui"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?attr/actionModeCloseDrawable"/>
+
+            <EditText
+                android:id="@+id/ed_sou"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入歌名搜索外链"
+                tools:ignore="Autofill,TextFields" />
+            <Button
+                android:id="@+id/btn_sou"
+                android:layout_weight="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="搜索"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/two"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:id="@+id/list_view_2"
+                android:layout_width="match_parent"
+                android:layout_height="670dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="600dp"/>
+
+
+            <LinearLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/up"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上一页"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:id="@+id/tt"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:text="当前页:1/119"/>
+
+                <TextView
+                    android:id="@+id/down"
+                    android:layout_marginLeft="50dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下一页"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.hrb.library.MiniMusicView
+        android:id="@+id/mini_music"
+        app:isLoadLayout="true"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>
